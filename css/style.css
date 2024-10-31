@@ -1,0 +1,81 @@
+/* POP UP */
+
+.ui-popup 
+{
+    position: fixed !important;bottom:-70px;left:0px; width: 100%; height:70px;background-color:#069; z-index:1000;
+}
+
+.ui-popup-content 
+{
+    margin-left:auto; margin-right:auto;
+}
+
+.ui-popup-content h3 
+{
+    color:White; 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 18px;
+}
+
+
+
+/* CTA Buttons */
+.CTABtn {
+    background-color: #3c8033; 
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 1px 1px 1px #666;
+    -webkit-box-shadow: 1px 1px 1px #666;
+    box-shadow: 1px 1px 1px #666;
+    color: #FFF;
+    width:200px;
+    height:30px;
+    line-height: 30px;
+    display: block;
+    overflow: visible;
+    text-align: center;
+    float: none;
+    /*margin-left: 3px;*/
+    /*    font-size: 16px !important;*/
+    font-size: 130%;
+    filter: alpha(opacity=85);
+    /*opacity:.85;*/
+    font-weight: 900;
+    transition-property: opactiy,font-weight;  
+    transition-duration: .8s;  
+    transition-timing-function: ease-out;  
+    -webkit-transition-property: opactiy,font-weight;  
+    -webkit-transition-duration: .8s;  
+    -o-transition-property: opactiy,font-weight;  
+    -o-transition-duration: .8s; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5px;
+}
+
+
+a.CTA 
+{
+    text-decoration:none;
+    display:block;
+}
+
+
+@media screen and (max-width: 500px) {
+.ui-popup-content h3 {
+    font-size: 14px;
+}
+
+.ui-popup-content .CTABtn
+{
+    font-size:120%;
+}
+
+}
+
